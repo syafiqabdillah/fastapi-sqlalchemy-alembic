@@ -1,0 +1,13 @@
+.env
+
+Pipfile
+
+Pipfile.lock
+
+*.db
+
+venv/
+
+__pycache__/
+
+.vscode/
