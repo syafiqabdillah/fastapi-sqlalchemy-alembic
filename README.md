@@ -23,9 +23,16 @@ source venv/bin/activate
 4. add `.env` file, look at `.env.example` file
 5. run migration with alembic
 
+Initialize alembic
+```bash
+(venv) $ alembic init alembic
+```
+Make migrations
 ```bash
 (venv) $ alembic revision -m "First migration"
-
+```
+Migrate
+```bash
 (venv) $ alembic upgrade head
 ```
 6. run the server 
